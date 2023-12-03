@@ -56,9 +56,10 @@ public class Main {
 
         System.out.println("Задача 10");
         int x = 2;
-        for (int w = 1; w <= 10; w++) {
-            x = w * 2;
-            System.out.println(x);
+        int u = 1;
+        for (int i = 1; i <= 10; i++) {
+            u = u * 2;
+            System.out.println("2 * " + i + " = " + 2 * i);
 
 
 
